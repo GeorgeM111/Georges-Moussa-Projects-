@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap');
+
+:root {
+     --brown: #4d2e07;
+     --light-brown: #8d633a;
+     --white: #fff;
+     --beige: #ffe4c4;
+     --light-beige: #f8e5d0bf;
+     --gray: #999;
+     --gold: #ebc802f1;
+}
+
+
+
+.bg-light-beige{
+     background-color: var(--light-beige) !important;
+}
+.bg-dark {
+     background-color: #000 !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     background-color: #ddcebc5f;
+     font-size: 14px;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+
+.italiana-regular {
+     font-family: "Italiana", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+
+.italianno-regular {
+     font-family: "Italianno", cursive;
+     font-weight: 400;
+     font-style: normal;
+}
+
+.chocImg {
+     margin-right: 3% !important;
+     width: 12% !important;
+}
+
+.Z {
+     font-size: 150%;
+     color: var(--gold);
+}
+
+.text-gold{
+     color: var(--gold);
+}
+
+#header {
+     line-height: 0.7;
+}
+
+
+.footer {
+     color: rgba(255, 255, 255, 0.7);
+     background-color: #0c0b09;
+     font-size: 14px;
+     padding-bottom: 50px;
+     position: relative;
+}
+
+.footer .footer-top {
+     margin-top: 3%;
+     padding-top: 50px;
+     border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.footer .footer-about .logo {
+     line-height: 1;
+     margin-bottom: 25px;
+}
+
+
+
+
+.footer .footer-links ul i {
+     padding-right: 2px;
+     font-size: 12px;
+     line-height: 0;
+}
+
+.footer .footer-links ul a {
+     color: white;
+     display: inline-block;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+     position: relative;
+     margin-left: 25px;
+     padding: 35px 0;
+     font-size: 15px;
+     color: white !important;
+     text-transform: uppercase;
+     font-weight: 500;
+}
+
+.sticky-top.navbar-dark .navbar-nav .nav-link {
+     padding: 10px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+     color: var(--gold) !important;
+}
+
+.text-bold{
+     font-weight: bold !important;
+}
+
+.card-why>h6, .card-why {
+     font-family: "Italiana", sans-serif;
+     font-weight: bold;
+     font-style: normal;
+     transition: background-color 0.3s ease, padding 0.3s ease, width 0.5s ease;
+ }
+ 
+ .card-why:hover {
+     background-color: var(--gold) !important;
+     padding: 15% !important;
+     width: 110% !important;
+     margin-left:-5%;
+ }
+ 
+ .card-why:hover .icon {
+     color: black !important;
+     transition: color 0.3s ease;
+ }
+
+ .btn-border{
+     border-color: #000 !important;
+     border-width: 2px;
+ }
+
+ hr::before {
+     content: '      ';
+     display: block;
+     height: 4px;
+     background-color: black !important;
+ }
+
+ .summary{
+     content:'';
+     height:1px;
+ }
+ 
+ @media (max-width: 767px) {
+     body{
+          background-color: #e3e0ca7a;
+     }
+     .card{
+          width: 75% !important;
+          margin-bottom: 3%;
+          margin-left:12%;
+     }
+     .navbar-toggler{
+          right:0;
+     }
+ }
+
+ 
+.footer .btn.btn-social {
+     margin-right: 5px;
+     width: 35px;
+     height: 35px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     border: 1px solid white;
+     border-radius: 35px;
+ }
+ 
+ .footer .btn.btn-social:hover {
+     color: var(--gold);
+ }
+ 
+ .footer .btn.btn-link {
+     display: block;
+     margin-bottom: 5px;
+     padding: 0;
+     text-align: left;
+     color: white;
+     font-size: 15px;
+ }
+
+ .footer .btn.btn-link:hover {
+     color: var(--gold);
+      }
+
+ .footer .copyright {
+     padding: 25px 0;
+     font-size: 15px;
+     border-top: 1px solid rgba(256, 256, 256, .1);
+ }
+ 
+ .footer a {
+     color: white;
+ }
+
+ .footerLocation iframe{
+     width: 100% !important;
+     height: 100% !important;
+ }
+
+.btn-gold{
+     background-color: var(--gold);
+}
+
+.btn-gold:hover{
+background-color:var(--gold) !important;
+opacity: 0.7 !important;
+}
+
+.btn-silver{
+     background-color: var(--gray);
+}
+
+.btn-silver:hover{
+background-color:var(--gray) !important;
+opacity: 0.7 !important;
+}
+
+.btn-brown{
+     background-color: var(--brown);
+}
+
+.btn-brown:hover{
+background-color:var(--lig) !important;
+opacity: 0.7 !important;
+}
+
+.checkout:disabled{
+     border-color: var(--gold);
+     border-width: 1px ;
+     color:var(--gold);
+     font-weight: bold;
+     background-color: #000;
+     opacity: 1;
+}
+
+.wrapper{
+     width: 420px;
+     border-radius: 10px;
+     padding :30px 40px;
+     background: transparent;
+     border:2px solid rgba(255,255,255,0.2);
+     backdrop-filter: blur(30px);
+     box-shadow: 0 0 10px rgba(255,255,255,0.2);
+   }
+   .input-box{
+     height:50px;
+   }
+   .input-box input{
+     font-family: Arial, Helvetica, sans-serif !important;
+     border:2px solid rgba(255,255,255,0.2) !important;
+     outline: none !important;
+     border-radius:40px;
+     color: var(--white);
+     font-size: 12px;
+   }
+   .input-box input::placeholder{
+     font-family: italiana;
+     font-weight: bold;
+     color: var(--white);
+     font-size:16px;
+   }
+
+   .remember-forgot{
+     margin:-15px 0 15px;
+   }
+   .remember-forgot a:hover{
+     text-decoration: underline;
+   }
+   .wrapper button{
+     height:45px;
+     border:none;
+     background-color: #fff;
+     outline: none;
+     border-radius: 40px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     cursor: pointer;
+     font-size: 16px;
+     color:#333;
+   }
+   .register p a:hover{
+     text-decoration: underline;
+   }
+   .mainContainer{
+     background: url('../img/bg.jpg') no-repeat;
+     background-size: cover;
+     background-position: center;
+   }
+   .text-bolder{
+  font-weight:bolder!important;
+  font-size: 15px;
+}
+
+.arial{
+     font-family: Arial, Helvetica, sans-serif !important;
+}
+#alert{
+     z-index: 1001; /* on small screens the alert will not appear properly */
+   }
+
+.btn-brown:hover{
+     border: 1px solid var(--brown) !important;
+     color:var(--brown) !important;
+}
