@@ -1,0 +1,17 @@
+.bg-dark {
+    background-color: #000 !important;
+}
+
+@media only screen and (max-width: 335px) {
+    .card-title {
+        font-size: 10.5px;
+    }
+
+    .card-text {
+        font-size: 10.5px;
+    }
+}
+
+.out_of_stock {
+    filter: blur(5px) brightness(50%);
+}

@@ -1,0 +1,117 @@
+nav h3,.text-warning,.border-warning{
+    color:#FEA116 !important;
+}
+body{
+    background-color: lightgray;
+}
+.btn-warning{
+    background-color: #FEA116;
+}
+#menu-body a{
+    text-decoration: none;
+}
+
+.col-lg-6 h5,.col-lg-6 h1 i{
+    color:#FEA116;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    background-color: #FEA116;
+    border:none;
+}
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    font-size: 15px;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sticky-top.navbar-dark .navbar-nav .nav-link {
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FEA116 !important;
+}
+
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.footer .btn.btn-social:hover {
+    color: #FEA116;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer a {
+    color: white;
+}
+
+button[name="buttonS"]{
+    background-color: gray;
+}
+.card {
+    background-color: rgb(33, 37, 41);
+}
+
+.card-title{
+    color: whitesmoke !important;
+}
